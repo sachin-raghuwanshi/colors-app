@@ -6,9 +6,9 @@ const Login = ({setisloggedin}) => {
     const initialvalues = { email: "", password: "" ,check:false}
     const [formvalues, setformvalues] = useState(initialvalues)
     const data={
-        'name':'successfully logged in '
+        'name':'successfully logged  in '
     }
-    // const [credentials,setcredentials]=useState(true)
+    
     const navigate=useNavigate()
 
     const handleChange = (e) => {
